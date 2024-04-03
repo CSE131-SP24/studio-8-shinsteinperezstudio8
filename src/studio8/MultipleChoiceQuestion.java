@@ -27,9 +27,9 @@ public class MultipleChoiceQuestion extends Question {
 		String[] choices2 = {"yes", "no", "maybe", "I have no idea what's going on"};
 		Question multipleChoice2 = new MultipleChoiceQuestion("Do you like this quiz?", "yes", 5, choices2 );
 		multipleChoice2.displayPrompt();
-		System.out.println(multipleChoice.checkAnswer("hi"));//wrong
-		System.out.println(multipleChoice.checkAnswer("1"));//wrong
-		System.out.println(multipleChoice.checkAnswer("3"));//right
+		System.out.println(multipleChoice2.checkAnswer("hi"));//wrong
+		System.out.println(multipleChoice2.checkAnswer("1"));//wrong
+		System.out.println(multipleChoice2.checkAnswer("3"));//right
 	}
 
 }
