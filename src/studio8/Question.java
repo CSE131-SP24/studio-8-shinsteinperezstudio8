@@ -22,6 +22,9 @@ public class Question {
 			return 0;
 		}
 	}
+	public String getPrompt() {
+		return this.prompt;
+	}
 	
 	public int getPoints() {
 		return this.points;
